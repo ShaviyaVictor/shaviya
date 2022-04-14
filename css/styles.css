@@ -73,7 +73,8 @@ ul{
   font-size:  30px;
   text-transform: capitalize;
 }
-.aside .logo a{
+.aside .logo a
+{
   color: var(--text-black-900);
   font-weight: 700;
   padding: 15px 20px;
@@ -98,6 +99,7 @@ ul{
   border-left: 5px solid var(--skin-color);
   bottom: 0;
   left: 0;
+
 }
 .aside .logo a::after
 {
@@ -111,6 +113,52 @@ ul{
   right: 0;
 
 }
+.aside .nav-toggler
+{
+  height: 40px;
+  width: 45px;
+  border: 1px solid var(--bg-black-50);
+  cursor: pointer;
+  position: fixed;
+  left: 300px;
+  top: 20px;
+  border-radius: 5px;
+  background: var(--bg-black-100);
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+}
+.aside .nav-toggler span{
+  height: 2px;
+  width: 18px;
+  background: var(--skin-color);
+  display: inline-block;
+  position: relative;
+
+}
+.aside .nav-toggler span::before
+{
+  content: '';
+  height: 2px;
+  width: 18px;
+  background: var(--skin-color);
+  position: absolute;
+  top: -6px;
+  left: 0;
+
+}
+.aside .nav-toggler span::after
+{
+  content: '';
+  height: 2px;
+  width: 18px;
+  background: var(--skin-color);
+  position: absolute;
+  top: 6px;
+  left: 0;
+  
+}
 .aside .nav
 {
   margin-top: 50px;
@@ -122,7 +170,8 @@ ul{
   display: block;
 
 }
-.aside .nav li a{
+.aside .nav li a
+{
   font-size: 16px;
   font-weight: 600;
   display: block;
@@ -139,5 +188,5 @@ ul{
 .aside .nav li a i
 {
   margin-right: 15px;
-  
+
 }
