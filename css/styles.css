@@ -402,7 +402,71 @@ h3.my-profession
   line-height: 25px;
   color: var(--text-black-700);
   margin-bottom: 15px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
+}
+.about .about-content .personal-info
+{
+  flex: 0 0 60%;
+  max-width: 60%;
+  margin-top: 40px;
+
+}
+.about .about-content .personal-info .info-item
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+
+}
+.about .about-content .personal-info .info-item p
+{
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+
+}
+.about .about-content .personal-info .info-item p span
+{
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 5px;
+  display: inline-block;
+
+}
+.about .about-content .personal-info .info-item p span a
+{
+  color: var(--text-black-700);
+  text-decoration: underline;
+
+}
+.about .about-content .personal-info .info-item p span a:hover
+{
+  color: var(--skin-color);
+  text-decoration: none;
+
+}
+.about .about-content .personal-info .buttons
+{
+  margin-top: 30px;
+
+}
+.about .about-content .personal-info .buttons .btn
+{
+  margin-right: 15px;
+  margin-top: 10px;
+
+}
+.about .about-content .skills
+{
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 40px;
 
 }
 /* End of About Me section styles */
