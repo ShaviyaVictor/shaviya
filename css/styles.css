@@ -573,6 +573,14 @@ h3.my-profession
   color: var(--text-black-700);
 
 }
+.about .about-content .timeline-item li.info-items
+{
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 10px;
+  list-style:disc;
+
+}
 /* End of Custom styles */
 .about .about-content .timeline .timeline-item
 {
