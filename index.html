@@ -14,6 +14,7 @@
     <link href="./css/styles.css" rel ="stylesheet" type="text/css">
     <link rel="stylesheet" href="./css/styles/color.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style-switcher.css">
     <title>Shaviya Victor</title>    
 
   </head>
@@ -757,6 +758,26 @@
     </div>
     <!-- ==== Main container End ==== -->
 
+    <!-- ==== Live Style Switch Start ==== -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-skin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color" onclick="setActiveStyle('color')"></span>
+        <span class="color1" onclick="setActiveStyle('color1')"></span>
+        <span class="color2" onclick="setActiveStyle('color2')"></span>
+        <span class="color3" onclick="setActiveStyle('color3')"></span>
+        <span class="color4" onclick="setActiveStyle('color4')"></span>
+      </div>
+    </div>
+    <!-- ==== Live Style Switch End ==== -->
+
+    <!-- ==== JS Files ==== -->
     <script src="./js/script.js"></script>
   </body>
 </html>
