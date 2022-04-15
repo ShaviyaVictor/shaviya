@@ -705,5 +705,22 @@ h3.my-profession
   font-weight: 700;
 
 }
-
 /* End of Services section styles */
+
+/* Start of Portfolio section styles */
+.portfolio .portfolio-heading
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+
+}
+.portfolio .portfolio-heading h2
+{
+  color: var(--text-black-900);
+  font-weight: 500;
+
+}
+
+
+
+/* End of Portfolio section styles */
