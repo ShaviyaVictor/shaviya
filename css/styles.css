@@ -522,7 +522,7 @@ h3.my-profession
 {
   flex: 0 0 50%;
   max-width: 50%;
-  margin-top: 30px;
+  margin-top: 40px;
 
 }
 .about .about-content h3.title
@@ -637,4 +637,73 @@ h3.my-profession
   color: var(--text-black-900);
 
 }
-/* End of About Me section styles */
+/* End of About Me section styles */ 
+
+/* Start of Services section styles */
+.service .container
+{
+  padding-bottom: 40px;
+
+}
+.service .service-item
+{
+  margin-top: 30px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+
+}
+.service .service-item .service-item-inner
+{
+  background: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+
+}
+.service .service-item .service-item-inner:hover
+{
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  cursor: pointer;
+
+}
+.service .service-item .service-item-inner .icon
+{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+
+}
+.service .service-item .service-item-inner .icon .fa
+{
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--skin-color);
+
+}
+.service .service-item .service-item-inner:hover .icon
+{
+  background: var(--skin-color);
+
+}
+.service .service-item .service-item-inner:hover .icon .fa
+{
+  font-size: 25px;
+  color: #fff;
+
+}
+.service .service-item .service-item-inner h4
+{
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--text-black-900);
+  font-weight: 700;
+
+}
+
+/* End of Services section styles */
