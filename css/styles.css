@@ -753,7 +753,77 @@ h3.my-profession
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
 }
-
-
-
 /* End of Portfolio section styles */
+
+/* Start of Contact section styles */
+
+.contact .portfolio-heading h2
+{
+  color: var(--text-black-900);
+  font-weight: 500;
+  margin-bottom: 80px;
+
+}
+.contact .contact-info-item
+{
+  flex: 0 0 16.66%;
+  max-width: 16.66%;
+  text-align: center;
+
+}
+.contact .contact-info-item .icon
+{
+  display: inline-block;
+
+}
+#twitter,
+#linkedin,
+#instagram,
+#codepen,
+#hackerrank,
+#github
+{
+  font-size: 3em;
+  background-color: var(--skin-color);
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#linkedin {
+  animation-delay: 0.1s;
+}
+#twitter {
+  animation-delay: 0.3s;
+}
+#codepen {
+  animation-delay: 0.2s;
+}
+#hackerrank {
+  animation-delay: 0.7s;
+}
+#github {
+  animation-delay: 0.3s;
+}
+#instagram {
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* End of glowing icons */
+/* End of Contact section styles */
