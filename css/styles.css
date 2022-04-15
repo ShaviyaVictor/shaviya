@@ -756,12 +756,12 @@ h3.my-profession
 /* End of Portfolio section styles */
 
 /* Start of Contact section styles */
-
-.contact .portfolio-heading h2
+.contact-title
 {
-  color: var(--text-black-900);
-  font-weight: 500;
-  margin-bottom: 80px;
+  color: var(--text-black-700);
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 35px;
 
 }
 .contact .contact-info-item
@@ -776,7 +776,21 @@ h3.my-profession
   display: inline-block;
 
 }
-#twitter,
+.contact .contact-info-item .icon .fa
+{
+  font-size: 30px;
+  color: var(--skin-color);
+
+}
+.contact .contact-info-item h4
+{
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  margin: 15px 0 5px;
+
+}
+/* #twitter,
 #linkedin,
 #instagram,
 #codepen,
@@ -815,6 +829,11 @@ h3.my-profession
 #instagram {
   animation-delay: 0.1s;
 }
+.contact .contact-info-item .icon .fa:hover
+{
+  color: var(--skin-color);
+
+}
 
 @keyframes animate {
   from {
@@ -823,7 +842,7 @@ h3.my-profession
   to {
     filter: hue-rotate(360deg);
   }
-}
+} */
 
 /* End of glowing icons */
 /* End of Contact section styles */
