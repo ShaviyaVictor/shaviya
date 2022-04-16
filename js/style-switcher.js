@@ -28,21 +28,33 @@ function setActiveStyle(color)
   })
   // localStorage.setItem('color', color);
   // changeColor();
-  }
-
-
-
-
-
-
-
-
-
-function changeColor() {
-  alternateStyle.forEach((style) => {
-    if(localStorage.getItem('color') === style.getAttribute('title'))
-    {
-      style.removeAttribute('disabled');
-    }
-  })
 }
+
+// ===== light and dark mode themes =====
+const dayNight = document.querySelector('.day-night');
+window.addEventListener('load', () => {
+  if (document.body.classList.contains('dark'))
+  {
+    dayNight.querySelector('i').classList.add('fa-sun');
+  }
+  else
+  {
+    dayNight.querySelector('i').classList.add('fa-moon')
+  }
+})
+
+
+
+
+
+
+
+
+// function changeColor() {
+//   alternateStyle.forEach((style) => {
+//     if(localStorage.getItem('color') === style.getAttribute('title'))
+//     {
+//       style.removeAttribute('disabled');
+//     }
+//   })
+// }
