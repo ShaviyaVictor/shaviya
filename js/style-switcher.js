@@ -47,19 +47,3 @@ window.addEventListener('load', () => {
     dayNight.querySelector('i').classList.add('fa-moon')
   }
 })
-
-
-
-
-
-
-
-
-// function changeColor() {
-//   alternateStyle.forEach((style) => {
-//     if(localStorage.getItem('color') === style.getAttribute('title'))
-//     {
-//       style.removeAttribute('disabled');
-//     }
-//   })
-// }
