@@ -179,7 +179,64 @@ section.hidden
   font-size:  30px;
   text-transform: capitalize;
 }
+/* Start of circular spinner */
+.aside .logo .circle 
+{
+  border: 1px solid var(--skin-color);
+  width: 140px;
+  height: 140px;
+  padding: 20px;
+  border-radius: 50%;
+  animation: circleAnimation 2s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .aside .logo a
+{
+  color: var(--text-black-900);
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+}
+.aside .logo a span
+{
+  font-family: 'Clicker Script', cursive;
+  font-size: 42px;
+  color: var(--skin-color);
+
+}
+.aside .logo .circle::before
+{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--skin-color);
+  box-shadow: 0 0 20px var(--skin-color);
+
+}
+@keyframes circleAnimation
+{
+  0% 
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+
+}
+/* End of circular spinner */
+/* .aside .logo a
 {
   color: var(--text-black-900);
   font-weight: 700;
@@ -218,7 +275,7 @@ section.hidden
   top: 0;
   right: 0;
 
-}
+} */
 
 /* ==== Adding bootstrap toggler to the navbar Start ==== */
 .asides .nav-toggler
