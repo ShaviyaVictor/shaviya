@@ -244,6 +244,7 @@ section.hidden
   background: var(--skin-color);
   display: inline-block;
   position: relative;
+  transition: all .5s ease-in-out;
 
 }
 .asides .nav-toggler span::before
@@ -256,6 +257,8 @@ section.hidden
   position: absolute;
   top: -6px;
   left: 0;
+  transition: all .5s ease-in-out;
+  transform: translateY(-3px);
 
 }
 .asides .nav-toggler span::after
@@ -268,8 +271,17 @@ section.hidden
   position: absolute;
   top: 6px;
   left: 0;
+  transition: all .5s ease-in-out;
+  transform: translateY(3px);
   
 }
+/* Start of button animation */
+.menuBtn.open span
+{
+  transform: translateX(-25px)
+
+}
+/* End of button animation */
 /* ==== End of Adding bootstrap toggler to the navbar ==== */
 .aside .nav
 {

@@ -1,9 +1,25 @@
+// Toggler button animation
+const menuBtn = document.querySelector('.menuBtn');
+let menuOpen = false;
+
+menuBtn.addEventListener('click', () => {
+  if (menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = false;
+  }
+  else 
+  {
+    menuBtn.classList.remove('open');
+    menuOpen = true;
+  }
+});
+
 // NavBar onClick display functionality
 const toggleBtn = document.querySelector('.nav-toggler');
 const navAside = document.querySelector('.aside');
 
 toggleBtn.addEventListener('click', () => {
-  if(navAside.style.display === 'none')
+  if (navAside.style.display === 'none')
   {
     navAside.style.display = 'flex';
   }
