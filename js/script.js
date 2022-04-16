@@ -1,3 +1,18 @@
+// NavBar onClick display functionality
+const toggleBtn = document.querySelector('.nav-toggler');
+const navAside = document.querySelector('.aside');
+
+toggleBtn.addEventListener('click', () => {
+  if(navAside.style.display === 'none')
+  {
+    navAside.style.display = 'flex';
+  }
+  else
+  {
+    navAside.style.display = 'none'
+  }
+})
+
 // ==== typing script ====
 var typed = new Typed('.typing', {
   strings:[' ', 'Town Planner', 'Graphic Designer', 'Web Designer', 'Full Stack Developer.'],
