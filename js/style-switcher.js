@@ -4,6 +4,7 @@ styleSwitcherToggler.addEventListener('click', () => {
   document.querySelector('.style-switcher').classList.toggle('open');
 })
 
+// Hide style switcher on scroll function
 window.addEventListener('scroll', () => {
   if(document.querySelector('.style-switcher').classList.contains('open'))
   {
@@ -11,15 +12,35 @@ window.addEventListener('scroll', () => {
   }
 })
 
+// ===== Theme colors function =====
 const alternateStyle = document.querySelectorAll('.alternate-style');
 function setActiveStyle(color)
 {
-  localStorage.setItem('color', color);
-  changeColor();
-}
+  alternateStyle.forEach((style) => {
+    if (color === style.getAttribute('title'))
+    {
+      style.removeAttribute('disabled');
+    }
+    else
+    {
+      style.setAttribute('disabled', 'true');
+    }
+  })
+  // localStorage.setItem('color', color);
+  // changeColor();
+  }
+
+
+
+
+
+
+
+
+
 function changeColor() {
   alternateStyle.forEach((style) => {
-    if(localStorage.getItem('coolor') === style.getAttribute('title'))
+    if(localStorage.getItem('color') === style.getAttribute('title'))
     {
       style.removeAttribute('disabled');
     }
