@@ -239,7 +239,7 @@ section.hidden
 }
 .asides .nav-toggler span{
   height: 3px;
-  width: 25px;
+  width: 21px;
   border-radius: 6px;
   background: var(--skin-color);
   display: inline-block;
@@ -251,35 +251,45 @@ section.hidden
 {
   content: '';
   height: 3px;
-  width: 25px;
+  width: 21px;
   border-radius: 6px;
   background: var(--skin-color);
   position: absolute;
   top: -6px;
   left: 0;
   transition: all .5s ease-in-out;
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 
 }
 .asides .nav-toggler span::after
 {
   content: '';
   height: 3px;
-  width: 25px;
+  width: 21px;
   border-radius: 6px;
   background: var(--skin-color);
   position: absolute;
   top: 6px;
   left: 0;
   transition: all .5s ease-in-out;
-  transform: translateY(3px);
+  transform: translateY(1px);
   
 }
 /* Start of button animation */
 .menuBtn.open span
 {
-  transform: translateX(-25px);
+  transform: translateX(-50px);
   background: none;
+
+}
+.menuBtn.open span::before
+{
+  transform: rotate(45deg) translate(35px, -35px);
+
+}
+.menuBtn.open span::after
+{
+  transform: rotate(-45deg) translate(35px, 35px);
 
 }
 /* End of button animation */
