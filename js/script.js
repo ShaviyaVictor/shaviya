@@ -1,3 +1,5 @@
+
+
 // Toggler button animation
 const menuBtn = document.querySelector('.menuBtn');
 let menuOpen = false;
@@ -37,3 +39,15 @@ var typed = new Typed('.typing', {
   loop: true 
 
 })
+
+// Changing active buttons using JS
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("bttn");
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
