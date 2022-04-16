@@ -278,7 +278,8 @@ section.hidden
 /* Start of button animation */
 .menuBtn.open span
 {
-  transform: translateX(-25px)
+  transform: translateX(-25px);
+  background: none;
 
 }
 /* End of button animation */
