@@ -1,6 +1,11 @@
 # shaviya
 This is a portfolio website that aims to showcase my newly acquired skills in web development.          
-![Shaviya's portfolio website](#)
+![Shaviya's portfolio website](https://github.com/ShaviyaVictor/shaviya/blob/main/assets/homePgLightScreenshot.png)
+![Shaviya's portfolio website](https://github.com/ShaviyaVictor/shaviya/blob/main/assets/homePgDarkScreenshot.png)
+![Shaviya's portfolio website](https://github.com/ShaviyaVictor/shaviya/blob/main/assets/aboutPgScreenshot.png)
+![Shaviya's portfolio website](https://github.com/ShaviyaVictor/shaviya/blob/main/assets/servicesPgScreenshot.png)
+![Shaviya's portfolio website](https://github.com/ShaviyaVictor/shaviya/blob/main/assets/portfolioPgScreenshot.png)
+![Shaviya's portfolio website](https://github.com/ShaviyaVictor/shaviya/blob/main/assets/contactPgScreenshot.png)
 
 ## Built With
 
