@@ -1001,6 +1001,26 @@ h3.my-profession
 /* End of glowing icons */
 /* End of Contact section styles */
 
+/* Start of Footer section styles */
+footer .timeline-date
+{
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: var(--text-black-700);
+  text-align: center;
+  padding: 30px;
+  background: var(--bg-black-900);
+
+}
+footer .timeline-date span
+{
+  font-size: 20px;
+
+}
+
+/* End of Footer section styles */
+
 /* Start of Responsive styles */
 @media (max-width:1199px)
 {
