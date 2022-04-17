@@ -806,6 +806,86 @@ h3.my-profession
   font-weight: 700;
 
 }
+/* Start of Testimonials styles */
+.service .service-title
+{
+  color: var(--text-black-700);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 55px;
+  margin-bottom: 16px;
+
+}
+.service .service-info
+{
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 45px;
+  color: var(--text-black-700);
+
+}
+.border
+{
+  width: 100px;
+  height: 3px;
+  background: var(--skin-color);
+  margin: 40px auto;
+
+}
+.testimonial
+{
+  background: var(--bg-black-100);
+  padding: 40px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  cursor: pointer;
+
+}
+.test-info
+{
+  display: flex;
+  height: 60px;
+  align-items: center;
+
+}
+.test-pic
+{
+  width: 50px !important;
+  border-radius: 50%;
+  margin-right: 15px;
+
+}
+.test-name a
+{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--text-black-700);
+
+}
+.test-name a:hover
+{
+  color: var(--skin-color);
+ 
+}
+.test-name span
+{
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text-black-700);
+
+}
+.testimonial p
+{
+  font-weight: 400;
+  color: var(--text-black-700);
+  line-height: 22px;
+  margin-top: 20px;
+
+}
+/* End of Testimonials styles */
 /* End of Services section styles */
 
 /* Start of Portfolio section styles */
