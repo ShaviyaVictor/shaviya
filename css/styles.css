@@ -841,7 +841,10 @@ h3.my-profession
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   cursor: pointer;
-  margin-bottom: 20px;
+  /* min-width helps with making the size responsive */
+  min-height: 40px;
+  /* To center a div inside another div  */
+  margin: 20px auto;
 
 }
 .test-info
