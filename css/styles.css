@@ -145,6 +145,7 @@ section.hidden
   display: inline-block;
   white-space: nowrap;
   border: none;
+  cursor: pointer;
   background: var(--skin-color);
   transition: all 0.3s ease;
 
@@ -840,30 +841,34 @@ h3.my-profession
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-  cursor: pointer;
+  text-align: center;
   /* min-width helps with making the size responsive */
-  min-height: 40px;
+  max-width: 600px;
+  
   /* To center a div inside another div  */
   margin: 20px auto;
-
-}
-.test-info
-{
-  display: flex;
-  height: 60px;
-  align-items: center;
+  margin-right: 25px;
+  margin-bottom: 66px;
 
 }
 .test-pic
 {
-  width: 60px !important;
+  height: 5rem !important;
   border-radius: 50%;
-  margin-right: 15px;
+  cursor: pointer;
+  /* Another margin auto used to center a div inside a div */
+  margin: 0 auto;
+
+}
+.test-name
+{
+
+  margin-top: 30px;
 
 }
 .test-name a
 {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 14px;
   color: var(--text-black-700);
 
@@ -877,7 +882,7 @@ h3.my-profession
 {
   display: block;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--text-black-700);
 
 }
@@ -886,7 +891,41 @@ h3.my-profession
   font-weight: 400;
   color: var(--text-black-700);
   line-height: 22px;
-  margin-top: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+
+}
+.slick-arrow
+{
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  background: var(--skin-color);
+  border: none;
+  padding: 8px 15px;
+  width: 100px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 28px;
+  color: white;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+.slick-arrow:hover
+{
+  transform: scale(1.05);
+}
+.slick-next
+{
+  left: 60%;
+
+}
+.slick-prev
+{
+  left: 43%;
 
 }
 /* End of Testimonials styles */
@@ -1137,6 +1176,16 @@ footer .timeline-date span
   {
     display: block;
     margin-left: 0;
+  }
+  button.slick-prev
+  {
+    display: none !important;
+
+  }
+  .slick-next
+  {
+    right: 0% !important;
+
   }
 }
 
