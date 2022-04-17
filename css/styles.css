@@ -841,6 +841,7 @@ h3.my-profession
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   cursor: pointer;
+  margin-bottom: 20px;
 
 }
 .test-info
@@ -852,7 +853,7 @@ h3.my-profession
 }
 .test-pic
 {
-  width: 50px !important;
+  width: 60px !important;
   border-radius: 50%;
   margin-right: 15px;
 
