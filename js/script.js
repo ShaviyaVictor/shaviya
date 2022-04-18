@@ -9,7 +9,7 @@ sendBtn.addEventListener('click', function(e) {
   var subject = document.getElementById('subject').value;
   var message = document.getElementById('message').value;
 
-  alert('Hi ' + name + ', your message has been sent successfully. Enjoy the rest of your day.')
+  alert('Hi ' + name + ', your message has been sent successfully. For prompt reply, reach me via LinkedIn link provided above. Thanks.')
 
   // var body = 'name: ' + name + '<br/> email: ' + email + '<br/> subject' + subject + '<br/> message' + message;
 
