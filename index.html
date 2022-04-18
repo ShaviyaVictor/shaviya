@@ -799,37 +799,39 @@
             <!-- ==== Contact form Start ==== -->
             <div class="row">
               <div class="contact-form padd-15">
-                <div class="row">
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name">
+                <form action="" method="post">
+                  <div class="row">
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input type="text" id="name" class="form-control" placeholder="Name">
+                      </div>
+                    </div>
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input type="email" id="email" class="form-control" placeholder="Email">
+                      </div>
                     </div>
                   </div>
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Email">
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <input type="text" id="subject" class="form-control" placeholder="Subject">
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Subject">
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <textarea name="" id="message" class="form-control" cols="30" rows="10" placeholder="Message..."></textarea>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <textarea name="" class="form-control" id="" cols="30" rows="10" placeholder="Message..."></textarea>
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <button type="submit" id="onClick" class="btn">Send Message</button>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-                </div>
+                </form>
               </div>
             </div>
             <!-- ==== Contact form End ==== -->
@@ -882,6 +884,8 @@
         slidesToShow: 1,
         slidesToScroll: 1,
       });
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="./js/script.js"></script>
