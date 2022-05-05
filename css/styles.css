@@ -1233,5 +1233,11 @@ footer .timeline-date span
     font-size: 14px;
   
   }
+  h3.my-profession
+  {
+    font-size: 20px;
+    margin: 15px 0;
+
+  }
 }
 /* End of Responsive styles */
