@@ -18,6 +18,11 @@ This is a portfolio website that aims to showcase my newly acquired skills in we
 
 This project is licensed under the [Apache License](https://github.com/ShaviyaVictor/shaviya/blob/main/LICENSE).      
 
+## Resources
+- [Personal Portfolio](https://www.youtube.com/watch?v=zJE-ze4TfXc)    
+- [Slider Section (testimonials)](https://www.youtube.com/watch?v=W_Aq2rYXi8k)                 
+- [Testimonials](https://www.youtube.com/watch?v=-WdseiAXImI)  
+
 ## Acknowledgments
 
 * Cryptical Coder
