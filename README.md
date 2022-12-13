@@ -35,4 +35,4 @@ This project is licensed under the [Apache License](https://github.com/ShaviyaVi
     - [Twitter](https://twitter.com/ShaviaVictor)
 
   
-**© Victor Shaviya**, My Personal Project.
+**© Victor Shaviya**, my mersonal project.
